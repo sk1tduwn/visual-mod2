@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "visualmod",
+  "version": "0.1.0",
+  "name": "VisualMod",
+  "description": "Client-side visual utility mod (ESP, fog, freelook, autoswap) for singleplayer/testing.",
+  "authors": ["Author"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "CLIENT",
+  "entrypoints": {
+    "main": [],
+    "client": ["com.example.visualmod.client.ClientMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": "*",
+    "minecraft": "1.21.4"
+  }
+}
